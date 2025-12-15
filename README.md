@@ -40,11 +40,16 @@ The project focuses on:
 ## 🧪 Project Structure
 ```
 heart-disease_classification/
-├── 01_heart_disease_EDA.ipynb
-├── 02_pipeline_model.ipynb
-├── confusion_matrix_visuals.py
-├── model_comparison_visuals.py
-└── README.md
+├── notebooks/
+│   ├── 01_heart_disease_EDA.ipynb
+│   └── 02_pipeline_model.ipynb
+│   
+├── src/
+│   ├── confusion_matrix_visuals.py
+│   └── model_comparison_visuals.py
+│   
+├── README.md
+└── requirements.txt
 ```
 
 ### Notebooks
